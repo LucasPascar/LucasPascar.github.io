@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Napule</title>
+</head>
+
+<body class="bg-personalizado">
+    <header>
+        <nav class="navbar bg-personalizado navbar-expand-lg fixed-top p-1 ">
+            <div class="container">
+                <a class="navbar-brand titulo-nava fw-bold" href="../index.html"><span
+                        class="titulo__span1">Na</span><span class="titulo__span2">pu</span><span
+                        class="titulo__span3">le</span></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon btn btn-light"></span>
+                </button>
+                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header bg-dark justify-content-center align-items-center">
+                        <h2 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel"><span
+                                class="titulo__span1">Ben</span><span class="titulo__span2">venu</span><span
+                                class="titulo__span3">to</span></h2>
+                        <button type="button" class="btn-close btn btn-light" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body bg-personalizado text-white">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="./pages/location.html">Como llegar</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mas información
+                                </a>
+                                <ul class="dropdown-menu bg-personalizadodw">
+                                    <li><a class="dropdown-item" href="#">Nuestros productos</a></li>
+                                    <li><a class="dropdown-item" href="../pages/carta.html">Nuestra carta</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--mapa-->
+
+    <section class="p-3 m-1">
+
+        <div class="row">
+            <div class="col p-3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m
+        8!1m3!1d13132.629122173184!2d-58.4452065!3d-34.6254655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8c7f691de186fb6!2sNapule%20Caballito!5e0!3m2!1ses-419!2sar!4v1674281582596!5m2!1ses-419!2sar"
+                    width="100%" height="550" class="locationb" ;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!--parrafo mapa-->
+            <section class="d-flex justify-content-center">
+                <div class="text-white">
+                    <div class="locationp">
+                        <i class="fa-solid fa-bus"></i>
+                        <p>Colectivos 103 - 180 - 26 - 88</p>
+                    </div>
+                    <div class="locationp">
+                        <i class="fa-solid fa-train-subway"></i>
+                        <p>Subte "A"-Estacion Puán </p>
+                    </div>
+                    </p>
+
+                </div>
+            </section>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+    <footer class="container-fluid mt-4 bg-personalizado">
+
+        <div class="row">
+            <!--Logo footer-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-3 col-sm-12 ">
+                <div class="d-flex align-items-center justify-content-start">
+                    <img src="../assets/Logo.jpg" class="img-thumbnail logo" alt="...">
+                </div>
+            </div>
+            <!-- redes Footer-->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-3 col-sm-12 redes ">
+                <i class="fa-brands fa-facebook icons"></i>
+                <i class="fa-brands fa-twitter icons"></i>
+                <i class="fa-brands fa-instagram icons"></i>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/3aadf1f237.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
