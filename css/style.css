@@ -57,7 +57,7 @@
 
 }
 .titulo__span4 {
-    color: turquoise;
+    color: rgb(85, 235, 220);
 }
 
 
@@ -66,6 +66,7 @@
 
 .hero {
     height: 400px;
+    margin-top: 50px;
 
 }
 
@@ -158,37 +159,6 @@
 
 /** Carta**/
 
-
-/**
-.ol{
-    padding-top: 15%;
-    color: white;
-    width: 100%;
-    height: auto;
-    border: solid white;
-    font-size: 30px;
-    
-}
-.ol h1{
-    color: #38755e;
-    text-decoration: underline;
-    font-weight: bold;
-}
-.ol h3{
-    color: red;
-}
-
-
-.bg-personalizado-cart{
-    background-image: url(../assets/Comida/fondocarta.jpg);
-    background-repeat: no-repeat;
-    width: 50%;
-    height: auto;
-
-}
-
-**/
-
 .containerp{
     width: 100%;
     height: auto;
@@ -220,4 +190,28 @@
 .ol-dulce{
     display: flex;
     align-items: flex-end;
+}
+
+/**Formulario contacto**/
+
+.form {
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    color: black;
+    font-size: 60;
+    align-items: center;
+}
+
+.textarea{
+    height: 2000px;
+    resize: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-btn{
+    font-size: 40px;
+    gap: 20px;
+    border-radius: 5px;
+    border: solid black;
 }

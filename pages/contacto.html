@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Napule</title>
 </head>
 
@@ -15,7 +15,7 @@
   <header>
     <nav class="navbar bg-personalizado navbar-expand-lg fixed-top p-1 ">
       <div class="container">
-        <a class="navbar-brand titulo-nava fw-bold" href="./index.html"><span class="titulo__span1">Na</span><span
+        <a class="navbar-brand titulo-nava fw-bold" href="../index.html"><span class="titulo__span1">Na</span><span
             class="titulo__span2">pu</span><span class="titulo__span3">le</span></a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -31,10 +31,10 @@
           <div class="offcanvas-body bg-personalizado text-white">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link text-white" href="./pages/location.html">Como llegar</a>
+                <a class="nav-link text-white" href="../pages/location.html">Como llegar</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
@@ -43,11 +43,11 @@
                 </a>
                 <ul class="dropdown-menu bg-personalizadodw">
                   <li><a class="dropdown-item" href="#">Nuestros productos</a></li>
-                  <li><a class="dropdown-item" href="./pages/carta.html">Nuestra carta</a></li>
+                  <li><a class="dropdown-item" href="../pages/carta.html">Nuestra carta</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="./pages/contacto.html">Contacto</a></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
                 </ul>
               </li>
             </ul>
@@ -56,93 +56,52 @@
       </div>
     </nav>
   </header>
-  <!-- carrousel-->
 
-  <div class="container-fluid  hero">
+  <!--Form-->
+
+  <div class="container bg-light form  ">
     <div class="row">
-      <div class="col">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active he">
-              <img src="./assets/Comida/pizzahorno4.jpg" class="d-block w-100" alt="...">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12">
+        <form>
+          <div class="mb-3">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Nombre y apellido</label>
+              <input type="text" class="form-control fs-3" id="formGroupExampleInput" placeholder="Ingrese su nombre">
             </div>
-            <div class="carousel-item">
-              <img src="./assets/Comida/pizzacarro1.jpg" class="d-block w-100" alt="...">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class= "form-label ">Telefono</label>
+              <input type="text" class="form-control fs-3" id="formGroupExampleInput" placeholder="Ingrese Telefono de contacto">
             </div>
-            <div class="carousel-item">
-              <img src="./assets/Comida/pizzacarro5.jpg" class="d-block w-100" alt="...">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Correo electronico</label>
+              <input type="text" class="form-control fs-3" id="formGroupExampleInput" placeholder="Ingrese su dirección de E-Mail ">
             </div>
+
+            <select class="form-select fs-3" aria-label="Default select example">
+              <option selected>Cantidad de Reservas</option>
+              <option value="1">1-2</option>
+              <option value="2">3-4</option>
+              <option value="3">5-mas</option>
+            </select>
+            <div class="form-floating ">
+              <textarea class="form-control textarea fs-3" placeholder="Deje su comentario" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea"></label>
+            </div>
+
+            <div class="d-flex justify-content-end  ">
+              <input class="btn btn-primary btn-btn btn btn-danger"" type="reset" value="Borrar Todo">
+              <input class="btn btn-primary btn-btn btn btn-danger"" type="submit" value="Enviar">  
+            </div>
+            
           </div>
-        </div>
+
+        
+        </form>
       </div>
     </div>
   </div>
 
 
-
-  <!--frase-->
-  <div class="container d-flex justify-content-center">
-    <div class="row">
-      <div class="col">
-        <h1 class="text-center fraset"> <span class="titulo__span1">Pizzeria</span> <span
-            class="titulo__span2">italiana</span> <span class="titulo__span3">di famiglia</span></h1>
-        <p class="text-center frase">
-          <span class="titulo__span1">Disfrutar del buen</span> <span class="titulo__span2">comer y la buena</span>
-          <span class="titulo__span3"> cocina italiana en</span><span class="titulo__span4"> Argen</span><span
-            class="titulo__span2">tina</span>
-        </p>
-        </b>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-
-  <!--cards-->
-
-  <div class="container">
-    <div class="row   d-flex align-items-center justify-content-center">
-
-      <!-- card 1-->
-      <div class="card col-xl-3 col-lg-4 col-md-6 col-xs-3 col-sm-12 mt-3 bg-dark text-white">
-        <img src="./assets/Comida/pizza4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Mortadela y pesto de familia</h5>
-          <p class="card-text">Queso mozzarella, mortadela, y pesto de receta secreta de familia
-          </p>
-
-        </div>
-      </div>
-
-
-      <!-- card 2-->
-
-
-      <div class="card col-xl-3 col-lg-4 col-md-6 col-xs-3 col-sm-12 mt-3 bg-dark text-white">
-        <img src="./assets/Comida/pizza2r.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Burrata y cherry</h5>
-          <p class="card-text">Queso mozzarella, salsa de tomate y albahaca </p>
-
-        </div>
-      </div>
-
-
-      <!-- card 3-->
-      <div class="card col-xl-3 col-lg-4 col-md-6 col-xs-3 col-sm-12 mt-3 bg-dark text-white">
-        <img src="./assets/Comida/pizzacarta3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Rucula y prociutto</h5>
-          <p class="card-text">Queso mozzarella, rucula y prociutto </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!--Footer-->
   <footer class="container-fluid mt-4 bg-personalizado">
@@ -151,7 +110,7 @@
       <!--Logo footer-->
       <div class="col-xl-6 col-lg-6 col-md-6 col-xs-3 col-sm-12 ">
         <div class="d-flex align-items-center justify-content-start">
-          <img src="./assets/Logo.jpg" class="img-thumbnail logo" alt="...">
+          <img src="../assets/Logo.jpg" class="img-thumbnail logo" alt="...">
         </div>
       </div>
       <!-- redes Footer-->
