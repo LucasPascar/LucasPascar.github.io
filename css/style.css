@@ -24,13 +24,24 @@
     font-size: 40px;
 }
 
+.nav-link{
+    transition: 0.5s;
+    color: white;
+}
+
+.nav-link:hover{
+    transform: scale (1, 1.05);
+    color: grey;
+
+
+}
 .titulo-nava {
     font-size: 60px;
     font-weight: bold
 }
 
 .bg-personalizado {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(20, 17, 17);
     color: white;
     font-family: 'Italianno', cursive;
     font-size: 40px;
@@ -215,3 +226,6 @@
     border-radius: 5px;
     border: solid black;
 }
+
+/**Animaciones**/
+
