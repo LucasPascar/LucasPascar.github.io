@@ -68,7 +68,7 @@
 
 }
 .titulo__span4 {
-    color: rgb(85, 235, 220);
+    color: rgb(116, 172, 223);
 }
 
 
@@ -123,23 +123,52 @@
 
 /**footer**/
 
-.icons {
+.icons-face {
     color: whitesmoke;
     font-size: 60px;
 }
 
-.redes{
-    display: flex;
-    justify-content:flex-end ;
-    align-items: flex-end;
-    gap: 30px;
+.icons-twit{
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+.icons-insta {
+    color: whitesmoke;
+    font-size: 60px;
 }
 
 .logo {
     max-height: 150px;
     height: 150px;
     width: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
 }
+
+.redes{
+    display: flex;
+    justify-content:flex-end ;
+    align-items:flex-end ; 
+    gap: 30px;
+}
+
+/**Animaciones iconos footer**/
+.icons-face:hover{
+    color: rgb(24, 119, 242);
+}
+
+.icons-twit:hover{
+    color: rgb(29, 155, 240);
+}
+.icons-insta:hover{
+    color: rgb(218,25, 70);
+}
+
+
+
+
 
 /**location**/
 
@@ -187,12 +216,14 @@
     width: 100%;
     height: auto;
     font-size: 30px;
+    list-style:none;
     
 }
 .ol h1{
     color: #38755e;
     text-decoration: underline;
     font-weight: bold;
+    transition: 5s;
 }
 .ol h3{
     color: red;
@@ -202,6 +233,10 @@
     display: flex;
     align-items: flex-end;
 }
+
+
+
+
 
 /**Formulario contacto**/
 
@@ -227,5 +262,14 @@
     border: solid black;
 }
 
-/**Animaciones**/
+
+@media only screen and (max-device-width:370px){
+
+    .redes{
+        display: flex;
+        justify-content:flex-end ;
+        align-items:flex-end ; 
+    }
+}
+    
 
