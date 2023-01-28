@@ -1,276 +1,242 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italianno&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italianno&family=Josefin+Sans:wght@300&family=Sofia+Sans+Extra+Condensed:ital,wght@1,300&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/**Nav Bar-index**/
 .logo {
-    width: 50px;
-    height: 54px;
-    display: flex;
-    justify-content: left;
-}
+  width: 50px;
+  height: 54px;
+  display: flex;
+  justify-content: left; }
 
 .nav__button {
-    display: flex;
-    justify-content: right;
-}
-
+  display: flex;
+  justify-content: right; }
 
 .titulo-nav {
-    font-size: 40px;
-}
+  font-size: 40px; }
 
-.nav-link{
-    transition: 0.5s;
-    color: white;
-}
+.nav-link {
+  transition: 0.5s;
+  color: white; }
 
-.nav-link:hover{
-    transform: scale (1, 1.05);
-    color: grey;
+.nav-link:hover {
+  transform: scale 1, 1.05;
+  color: grey; }
 
-
-}
 .titulo-nava {
-    font-size: 60px;
-    font-weight: bold
-}
+  font-size: 60px;
+  font-weight: bold; }
 
 .bg-personalizado {
-    background-color: rgb(20, 17, 17);
-    color: white;
-    font-family: 'Italianno', cursive;
-    font-size: 40px;
-}
+  background-color: #141111;
+  color: black;
+  font-size: 40px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif; }
 
-.bg-personalizadodw {
-    color: white;
-    font-family: 'Italianno', cursive;
-    font-size: 40px;
+.logo-nav {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 60px; }
 
-}
+.nav-cascada {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 35px; }
 
 .titulo__span1 {
-    color: #38755e;
-}
+  color: #38755e; }
 
 .titulo__span2 {
-    color: #ffff;
-
-}
+  color: #ffff; }
 
 .titulo__span3 {
-    color: red;
+  color: red; }
 
-}
 .titulo__span4 {
-    color: rgb(116, 172, 223);
-}
-
-
-/**carrousel**/
-
-
-.hero {
-    height: 400px;
-    margin-top: 50px;
-
-}
-
-.hero img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-
-/**frase**/
-
-.fraset{
-    font-size: 60px;
-}
-
-.frase{
-    font-size: 50px;
-}
-
-/**card**/
-
-.card {
-    margin: 0px 15px;
-    height:500px;
-    font-family: 'Italianno', cursive;
-    font-size: 30px;
-    border: solid whitesmoke;
-}
-
-.card h5 {
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: underline;
-    color: whitesmoke;
-}
-
-
-.card img {
-    max-height: 60%;
-    border-radius: 5px;
-}
+  color: #74acdf; }
 
 /**footer**/
-
 .icons-face {
-    color: whitesmoke;
-    font-size: 60px;
-}
+  color: whitesmoke;
+  font-size: 60px; }
 
-.icons-twit{
-    color: whitesmoke;
-    font-size: 60px;
-}
+.icons-twit {
+  color: whitesmoke;
+  font-size: 60px; }
 
 .icons-insta {
-    color: whitesmoke;
-    font-size: 60px;
-}
+  color: whitesmoke;
+  font-size: 60px; }
 
 .logo {
-    max-height: 150px;
-    height: 150px;
-    width: 150px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-}
+  max-height: 150px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start; }
 
-.redes{
-    display: flex;
-    justify-content:flex-end ;
-    align-items:flex-end ; 
-    gap: 30px;
-}
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 30px; }
 
 /**Animaciones iconos footer**/
-.icons-face:hover{
-    color: rgb(24, 119, 242);
-}
+.icons-face:hover {
+  color: #1877f2; }
 
-.icons-twit:hover{
-    color: rgb(29, 155, 240);
-}
-.icons-insta:hover{
-    color: rgb(218,25, 70);
-}
+.icons-twit:hover {
+  color: #1d9bf0; }
 
+.icons-insta:hover {
+  color: #da1946; }
 
+/**Animaciones iconos footer**/
+.icons-face:hover {
+  color: #1877f2; }
 
+.icons-twit:hover {
+  color: #1d9bf0; }
 
+.icons-insta:hover {
+  color: #da1946; }
 
-/**location**/
+/**carrousel**/
+.hero {
+  height: 400px;
+  margin-top: 50px; }
 
-.locationp{
-    font-family: 'Italianno', cursive;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 0;
-    row-gap: 10px;
-    gap: 10px;
-    border: solid;
-    object-fit: cover;
-    width: 400px;
-    height: 100px;
-    border-radius: 5px;
-    
-    
-}
+.hero img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; }
 
-.locationb{
-    border: solid grey;
-    border-radius: 10px;
-    
-}
+/**frase**/
+.fraset {
+  font-size: 60px; }
 
-/** Carta**/
+.frase {
+  font-size: 50px; }
 
-.containerp{
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-    background-image: url(../assets/Comida/fuego.jpg);
-    display: flex;
-    background-repeat: no-repeat;
-    align-items:center ;
-    justify-content: center;
-    object-fit: cover;
-}
-.ol{
-    padding-top: 15%;
-    margin-left: 40px;
-    color: white;
-    width: 100%;
-    height: 95%;
-    font-size: 30px;
-    list-style:none;
-    
-}
-.ol h1{
-    color: #38755e;
-    text-decoration: underline;
-    font-weight: bold;
-}
-.ol h3{
-    color: red;
-}
+/**card**/
+.container-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
-.ol-dulce{
-    display: flex;
-    align-items: flex-end;
-}
+.card {
+  margin: 0px 15px;
+  padding-top: 15px;
+  height: 400px;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-size: 25px;
+  border: solid whitesmoke;
+  background-color: black;
+  color: whitesmoke; }
 
+.card p {
+  color: whitesmoke; }
 
+.card h5 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: whitesmoke; }
 
-
+.card img {
+  max-height: 60%;
+  border-radius: 5px; }
 
 /**Formulario contacto**/
-
 .form {
-    margin-top: 100px;
-    height: auto;
-    width: 100%;
-    color: black;
-    font-size: 60;
-    align-items: center;
-}
+  margin-top: 100px;
+  height: auto;
+  width: 100%;
+  color: black;
+  font-size: 60;
+  align-items: center; }
 
-.textarea{
-    height: 2000px;
-    resize: 20px;
-    margin-bottom: 20px;
-}
+.textarea {
+  height: 2000px;
+  resize: 20px;
+  margin-bottom: 20px; }
 
-.btn-btn{
-    font-size: 40px;
-    gap: 20px;
-    border-radius: 5px;
-    border: solid black;
-}
+.btn-btn {
+  font-size: 40px;
+  gap: 20px;
+  border-radius: 5px;
+  border: solid black; }
 
+/** Carta**/
+.containerp {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/Comida/fuego.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  padding-bottom: 10px; }
 
-@media only screen and (max-device-width:370px){
+.ol {
+  padding-top: 15%;
+  margin-left: 40px;
+  color: whitesmoke;
+  width: 100%;
+  height: 95%;
+  font-size: 30px;
+  list-style: none; }
 
-    .redes{
-        display: flex;
-        justify-content:flex-end ;
-        align-items:flex-end ; 
-        gap:0;
-    }
-}
-    
+.ol h1 {
+  color: #38755e;
+  text-decoration: underline;
+  font-weight: bold; }
 
+.ol h3 {
+  color: red; }
+
+.ol-dulce {
+  display: flex;
+  align-items: flex-end; }
+
+/**location**/
+.location p {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: whitesmoke;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0;
+  row-gap: 10px;
+  gap: 10px;
+  border: solid;
+  object-fit: cover;
+  width: 400px;
+  height: 100px;
+  border-radius: 5px; }
+
+.location i {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 40px;
+  margin: 5px; }
+
+.locationb {
+  border: solid grey;
+  border-radius: 10px; }
+
+@media only screen and (max-device-width: 370px) {
+  .redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 0; } }

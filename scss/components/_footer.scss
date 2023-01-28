@@ -1,0 +1,60 @@
+
+
+/**footer**/
+
+.icons-face {
+    color: $color-icons;
+    font-size: 60px;
+}
+
+.icons-twit{
+    color: $color-icons;
+    font-size: 60px;
+}
+
+.icons-insta {
+    color: $color-icons;
+    font-size: 60px;
+}
+
+.logo {
+    max-height: 150px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.redes{
+    display: flex;
+    justify-content:flex-end ;
+    align-items:flex-end ; 
+    gap: 30px;
+}
+
+/**Animaciones iconos footer**/
+.icons-face:hover{
+    color: rgb(24, 119, 242);
+}
+
+.icons-twit:hover{
+    color: rgb(29, 155, 240);
+}
+.icons-insta:hover{
+    color: rgb(218,25, 70);
+}
+
+
+
+/**Animaciones iconos footer**/
+.icons-face:hover{
+    color: rgb(24, 119, 242);
+}
+
+.icons-twit:hover{
+    color: rgb(29, 155, 240);
+}
+.icons-insta:hover{
+    color: rgb(218,25, 70);
+}

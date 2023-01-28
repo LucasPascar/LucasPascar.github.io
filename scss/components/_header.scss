@@ -1,0 +1,70 @@
+.logo {
+    width: 50px;
+    height: 54px;
+    display: flex;
+    justify-content: left;
+}
+
+.nav__button {
+    display: flex;
+    justify-content: right;
+}
+
+
+.titulo-nav {
+    font-size: 40px;
+}
+
+.nav-link{
+    transition: 0.5s;
+    color: white;
+}
+
+.nav-link:hover{
+    transform: scale (1, 1.05);
+    color: grey;
+
+
+}
+.titulo-nava {
+    font-size: 60px;
+    font-weight: bold
+}
+
+.bg-personalizado {
+    background-color: rgb(20, 17, 17);
+    color: black;
+    font-size: 40px;
+    font-family: $font-main;
+}
+
+.logo-nav{
+    font-family: $font-main;
+    font-size: 60px;
+
+}
+
+
+.nav-cascada{
+    font-family: $font-main;
+    font-size: 35px;
+
+}
+
+
+.titulo__span1 {
+    color: #38755e;
+}
+
+.titulo__span2 {
+    color: #ffff;
+
+}
+
+.titulo__span3 {
+    color: red;
+
+}
+.titulo__span4 {
+    color: rgb(116, 172, 223);
+}

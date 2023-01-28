@@ -1,0 +1,38 @@
+
+/**location**/
+
+.location p{
+    font-family: $font-main;
+    color: $color-main-font;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0;
+    row-gap: 10px;
+    gap: 10px;
+    border: solid;
+    object-fit: cover;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    
+    
+}
+
+.location i{
+    color: $color-main-font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+    font-size: 40px; 
+    margin: 5px;
+}
+
+.locationb{
+    border: solid grey;
+    border-radius: 10px;
+    
+}

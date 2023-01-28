@@ -1,0 +1,40 @@
+
+/** Carta**/
+
+.containerp{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/Comida/fuego.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    align-items:center ;
+    justify-content: center;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+.ol{
+    padding-top: 15%;
+    margin-left: 40px;
+    color: $color-main-font;
+    width: 100%;
+    height: 95%;
+    font-size: 30px;
+    list-style:none;
+    
+}
+.ol h1{
+    color: #38755e;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ol h3{
+    color: red;
+}
+
+.ol-dulce{
+    display: flex;
+    align-items: flex-end;
+}
+
+
