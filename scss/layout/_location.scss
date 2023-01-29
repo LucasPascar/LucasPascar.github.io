@@ -1,7 +1,7 @@
 
 /**location**/
 
-.location p{
+.location {
     font-family: $font-main;
     color: $color-main-font;
     font-size: 30px;
@@ -17,19 +17,19 @@
     width: 400px;
     height: 100px;
     border-radius: 5px;
-    
+    i{
+        color: $color-main-font;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;   
+        font-size: 40px; 
+        margin: 5px;
+    }
     
 }
 
-.location i{
-    color: $color-main-font;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;   
-    font-size: 40px; 
-    margin: 5px;
-}
+
 
 .locationb{
     border: solid grey;

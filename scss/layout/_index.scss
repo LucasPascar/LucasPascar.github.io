@@ -1,5 +1,3 @@
-
-
 /**carrousel**/
 
 
@@ -7,59 +5,56 @@
     height: 400px;
     margin-top: 50px;
 
-}
-
-.hero img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
 }
 
 
 /**frase**/
 
-.fraset{
+.fraset {
     font-size: 60px;
 }
 
-.frase{
+.frase {
     font-size: 50px;
 }
 
 /**card**/
 
-.container-card{
+.container-card {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    .card {
+        margin: 0px 15px;
+        padding-top: 15px;
+        height: 400px;
+        font-family: $font-main;
+        font-size: 25px;
+        border: solid whitesmoke;
+        background-color: black;
+        color: $color-main-font;
+        
+        p {
+            color: $color-main-font;
+        }
+        h5 {
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+            color: $color-main-font;
+        }
+        img {
+            max-height: 60%;
+            border-radius: 5px;
+        }
+    
 }
-
-.card {
-    margin: 0px 15px;
-    padding-top: 15px;
-    height:400px;
-    font-family: $font-main;
-    font-size: 25px;
-    border: solid whitesmoke;
-    background-color: black;
-    color: $color-main-font;
-}
-
-.card p{
-    color: $color-main-font;
-}
-
-.card h5 {
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: underline;
-    color:$color-main-font;
-}
-
-
-.card img {
-    max-height: 60%;
-    border-radius: 5px;
 }
 
 

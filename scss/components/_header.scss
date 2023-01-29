@@ -18,14 +18,12 @@
 .nav-link{
     transition: 0.5s;
     color: white;
+    &:hover{
+        transform: scale (1, 1.05);
+        color: grey;
+    }
 }
 
-.nav-link:hover{
-    transform: scale (1, 1.05);
-    color: grey;
-
-
-}
 .titulo-nava {
     font-size: 60px;
     font-weight: bold

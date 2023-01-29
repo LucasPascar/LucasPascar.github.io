@@ -21,10 +21,9 @@
 .nav-link {
   transition: 0.5s;
   color: white; }
-
-.nav-link:hover {
-  transform: scale 1, 1.05;
-  color: grey; }
+  .nav-link:hover {
+    transform: scale 1, 1.05;
+    color: grey; }
 
 .titulo-nava {
   font-size: 60px;
@@ -60,14 +59,20 @@
 .icons-face {
   color: whitesmoke;
   font-size: 60px; }
+  .icons-face:hover {
+    color: #1877f2; }
 
 .icons-twit {
   color: whitesmoke;
   font-size: 60px; }
+  .icons-twit:hover {
+    color: #1d9bf0; }
 
 .icons-insta {
   color: whitesmoke;
   font-size: 60px; }
+  .icons-insta:hover {
+    color: #da1946; }
 
 .logo {
   max-height: 150px;
@@ -83,35 +88,14 @@
   align-items: flex-end;
   gap: 30px; }
 
-/**Animaciones iconos footer**/
-.icons-face:hover {
-  color: #1877f2; }
-
-.icons-twit:hover {
-  color: #1d9bf0; }
-
-.icons-insta:hover {
-  color: #da1946; }
-
-/**Animaciones iconos footer**/
-.icons-face:hover {
-  color: #1877f2; }
-
-.icons-twit:hover {
-  color: #1d9bf0; }
-
-.icons-insta:hover {
-  color: #da1946; }
-
 /**carrousel**/
 .hero {
   height: 400px;
   margin-top: 50px; }
-
-.hero img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover; }
+  .hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; }
 
 /**frase**/
 .fraset {
@@ -125,29 +109,25 @@
   width: 100%;
   height: 100%;
   object-fit: cover; }
-
-.card {
-  margin: 0px 15px;
-  padding-top: 15px;
-  height: 400px;
-  font-family: "Sofia Sans Extra Condensed", sans-serif;
-  font-size: 25px;
-  border: solid whitesmoke;
-  background-color: black;
-  color: whitesmoke; }
-
-.card p {
-  color: whitesmoke; }
-
-.card h5 {
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: underline;
-  color: whitesmoke; }
-
-.card img {
-  max-height: 60%;
-  border-radius: 5px; }
+  .container-card .card {
+    margin: 0px 15px;
+    padding-top: 15px;
+    height: 400px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 25px;
+    border: solid whitesmoke;
+    background-color: black;
+    color: whitesmoke; }
+    .container-card .card p {
+      color: whitesmoke; }
+    .container-card .card h5 {
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: underline;
+      color: whitesmoke; }
+    .container-card .card img {
+      max-height: 60%;
+      border-radius: 5px; }
 
 /**Formulario contacto**/
 .form {
@@ -190,21 +170,19 @@
   height: 95%;
   font-size: 30px;
   list-style: none; }
-
-.ol h1 {
-  color: #38755e;
-  text-decoration: underline;
-  font-weight: bold; }
-
-.ol h3 {
-  color: red; }
+  .ol h1 {
+    color: #38755e;
+    text-decoration: underline;
+    font-weight: bold; }
+  .ol h3 {
+    color: red; }
 
 .ol-dulce {
   display: flex;
   align-items: flex-end; }
 
 /**location**/
-.location p {
+.location {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   color: whitesmoke;
   font-size: 30px;
@@ -220,15 +198,14 @@
   width: 400px;
   height: 100px;
   border-radius: 5px; }
-
-.location i {
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  font-size: 40px;
-  margin: 5px; }
+  .location i {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    margin: 5px; }
 
 .locationb {
   border: solid grey;

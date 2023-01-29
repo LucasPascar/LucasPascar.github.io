@@ -5,16 +5,25 @@
 .icons-face {
     color: $color-icons;
     font-size: 60px;
-}
 
+    &:hover{
+        color: rgb(24, 119, 242);
+    }
+}
 .icons-twit{
     color: $color-icons;
     font-size: 60px;
-}
 
+    &:hover{
+        color: rgb(29, 155, 240);
+    }
+}
 .icons-insta {
     color: $color-icons;
     font-size: 60px;
+    &:hover{
+        color: rgb(218,25, 70);
+    }
 }
 
 .logo {
@@ -33,28 +42,4 @@
     gap: 30px;
 }
 
-/**Animaciones iconos footer**/
-.icons-face:hover{
-    color: rgb(24, 119, 242);
-}
 
-.icons-twit:hover{
-    color: rgb(29, 155, 240);
-}
-.icons-insta:hover{
-    color: rgb(218,25, 70);
-}
-
-
-
-/**Animaciones iconos footer**/
-.icons-face:hover{
-    color: rgb(24, 119, 242);
-}
-
-.icons-twit:hover{
-    color: rgb(29, 155, 240);
-}
-.icons-insta:hover{
-    color: rgb(218,25, 70);
-}
