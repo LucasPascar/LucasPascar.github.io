@@ -15,10 +15,11 @@
     font-size: 40px;
 }
 
-.nav-link{
+.nav-link {
     transition: 0.5s;
     color: white;
-    &:hover{
+
+    &:hover {
         transform: scale (1, 1.05);
         color: grey;
     }
@@ -36,14 +37,14 @@
     font-family: $font-main;
 }
 
-.logo-nav{
+.logo-nav {
     font-family: $font-main;
     font-size: 60px;
 
 }
 
 
-.nav-cascada{
+.nav-cascada {
     font-family: $font-main;
     font-size: 35px;
 
@@ -63,6 +64,7 @@
     color: red;
 
 }
+
 .titulo__span4 {
     color: rgb(116, 172, 223);
 }

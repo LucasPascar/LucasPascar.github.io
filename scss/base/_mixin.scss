@@ -1,12 +1,12 @@
-@mixin tamanio ($alto, $ancho, $jc, $d){
+@mixin tamanio ($alto, $ancho, $jc, $d) {
     height: $alto;
-    width:$ancho;
+    width: $ancho;
     justify-content: $jc;
     display: $d;
 
 }
 
-@mixin flex ($d, $dir, $wrap , $gap, $jc){
+@mixin flex ($d, $dir, $wrap , $gap, $jc) {
     display: $d;
     flex-direction: $dir;
     flex-wrap: $wrap;

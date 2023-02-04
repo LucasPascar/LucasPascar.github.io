@@ -1,17 +1,17 @@
-@media only screen and (max-width:370px){
+@media only screen and (max-width:370px) {
 
-    .redes{
+    .redes {
         display: flex;
-        justify-content:flex-end ;
-        align-items:flex-end ; 
-        gap:0;
-        
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 0;
+
     }
 
-    
+
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:750px) {
 
     .card img {
         max-height: 50%;
@@ -20,13 +20,8 @@
     .caja1 img {
         width: 400px;
     }
+
     .caja2 img {
         width: 400px;
     }
 }
-
-
-
-
-
-

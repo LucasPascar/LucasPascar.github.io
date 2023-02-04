@@ -210,6 +210,9 @@
   font-size: 30px;
   list-style: none; }
   .ol h1 {
+    color: red;
+    font-weight: bold; }
+  .ol h2 {
     color: #38755e;
     text-decoration: underline;
     font-weight: bold; }
