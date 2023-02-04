@@ -60,6 +60,8 @@
     }
 }
 
+// mixin de imagenes
+
 .lugar {
     @include flex(flex, row, wrap, 10px, center);
     padding-top: 20px;
@@ -87,7 +89,7 @@
 
     img {
         object-fit: cover;
-        border: solid grey;
+        border: solid white;
         border-radius: 5px;
         max-height: 500px;
         max-width: 1200px;
