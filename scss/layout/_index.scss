@@ -68,26 +68,24 @@
     object-fit: cover;
 }
 
-    .caja1 {
-        @include tamanio (500px, 700px, center, flex);
+.caja1 {
+    @include tamanio (500px, 700px, center, flex);
 
-    }
-
-    .caja2 {
-        @include tamanio (500px, 700px, center,flex);
-    }
-
-    .caja1 img {
+    img {
         object-fit: cover;
-        border: solid grey;
+        border: solid white;
         border-radius: 5px;
         max-height: 500px;
         max-width: 1500px;
         width: 500px;
         margin-bottom: 10px;
     }
+}
 
-    .caja2 img {
+.caja2 {
+    @include tamanio (500px, 700px, center, flex);
+
+    img {
         object-fit: cover;
         border: solid grey;
         border-radius: 5px;
@@ -96,3 +94,6 @@
         width: 500px;
         margin-bottom: 10px;
     }
+}
+
+

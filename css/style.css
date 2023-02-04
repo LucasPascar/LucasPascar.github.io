@@ -145,30 +145,28 @@
   width: 700px;
   justify-content: center;
   display: flex; }
+  .caja1 img {
+    object-fit: cover;
+    border: solid white;
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 1500px;
+    width: 500px;
+    margin-bottom: 10px; }
 
 .caja2 {
   height: 500px;
   width: 700px;
   justify-content: center;
   display: flex; }
-
-.caja1 img {
-  object-fit: cover;
-  border: solid grey;
-  border-radius: 5px;
-  max-height: 500px;
-  max-width: 1500px;
-  width: 500px;
-  margin-bottom: 10px; }
-
-.caja2 img {
-  object-fit: cover;
-  border: solid grey;
-  border-radius: 5px;
-  max-height: 500px;
-  max-width: 1200px;
-  width: 500px;
-  margin-bottom: 10px; }
+  .caja2 img {
+    object-fit: cover;
+    border: solid grey;
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 1200px;
+    width: 500px;
+    margin-bottom: 10px; }
 
 /**Formulario contacto**/
 .form {
@@ -252,9 +250,17 @@
   border: solid grey;
   border-radius: 10px; }
 
-@media only screen and (max-device-width: 370px) {
+@media only screen and (max-width: 370px) {
   .redes {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     gap: 0; } }
+
+@media only screen and (max-width: 750px) {
+  .card img {
+    max-height: 50%; }
+  .caja1 img {
+    width: 400px; }
+  .caja2 img {
+    width: 400px; } }

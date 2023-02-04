@@ -1,7 +1,7 @@
 {
   "name": "proyecto-final-3.0-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "proyecto-desarrolloweb-coderhouse",
   "main": "index.js",
   "scripts": {
     "build-sass": " node-sass --include-path scss ./scss/style.scss ./css/style.css"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/LucasPascar/Napule-Lucas-Pascar.git"
   },
-  "author": "",
+  "author": "lucas pascar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LucasPascar/Napule-Lucas-Pascar/issues"

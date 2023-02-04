@@ -1,4 +1,4 @@
-@media only screen and (max-device-width:370px){
+@media only screen and (max-width:370px){
 
     .redes{
         display: flex;
@@ -9,6 +9,20 @@
     }
 
     
+}
+
+@media only screen and (max-width:750px){
+
+    .card img {
+        max-height: 50%;
+    }
+
+    .caja1 img {
+        width: 400px;
+    }
+    .caja2 img {
+        width: 400px;
+    }
 }
 
 
