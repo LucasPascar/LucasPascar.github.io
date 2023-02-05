@@ -12,11 +12,14 @@
 }
 
 @media only screen and (max-width:750px) {
-
+// imagenes con descripcion
     .card img {
-        max-height: 50%;
+        max-height: 158px;
+        max-width: 506px;
     }
 
+
+    //imagenes de muestra
     .caja1 img {
         width: 400px;
     }
@@ -32,3 +35,6 @@
         width: 400px;
     }
 }
+
+
+

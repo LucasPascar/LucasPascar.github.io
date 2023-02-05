@@ -289,7 +289,8 @@
 
 @media only screen and (max-width: 750px) {
   .card img {
-    max-height: 50%; }
+    max-height: 158px;
+    max-width: 506px; }
   .caja1 img {
     width: 400px; }
   .caja2 img {
