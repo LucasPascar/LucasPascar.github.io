@@ -40,6 +40,10 @@
         background-color: black;
         color: $color-main-font;
 
+        h2 {
+            color: $color-title-font;
+        }
+
         p {
             color: $color-main-font;
         }
@@ -109,5 +113,19 @@
         max-width: 1200px;
         width: 500px;
         margin-bottom: 10px;
+    }
+}
+
+    .caja4 {
+        @include tamanio (500px, 700px, center, flex);
+
+        img {
+            object-fit: cover;
+            border: solid white;
+            border-radius: 5px;
+            max-height: 500px;
+            max-width: 1200px;
+            width: 500px;
+            margin-bottom: 10px;
     }
 }

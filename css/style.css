@@ -117,6 +117,8 @@
     border: solid whitesmoke;
     background-color: black;
     color: whitesmoke; }
+    .container-card .card h2 {
+      color: red; }
     .container-card .card p {
       color: whitesmoke; }
     .container-card .card h5 {
@@ -182,6 +184,20 @@
     width: 500px;
     margin-bottom: 10px; }
 
+.caja4 {
+  height: 500px;
+  width: 700px;
+  justify-content: center;
+  display: flex; }
+  .caja4 img {
+    object-fit: cover;
+    border: solid white;
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 1200px;
+    width: 500px;
+    margin-bottom: 10px; }
+
 /**Formulario contacto**/
 .form {
   margin-top: 100px;
@@ -224,7 +240,6 @@
   font-size: 30px;
   list-style: none; }
   .ol h1 {
-    color: red;
     font-weight: bold; }
   .ol h2 {
     color: #38755e;
@@ -278,4 +293,8 @@
   .caja1 img {
     width: 400px; }
   .caja2 img {
+    width: 400px; }
+  .caja3 img {
+    width: 400px; }
+  .caja4 img {
     width: 400px; } }

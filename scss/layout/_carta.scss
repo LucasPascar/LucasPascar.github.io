@@ -23,19 +23,17 @@
     list-style: none;
 
     h1 {
-        color:
-            red;
         font-weight: bold;
     }
 
     h2 {
-        color: #38755e;
+        color: $color-title-section;
         text-decoration: underline;
         font-weight: bold;
     }
 
     h3 {
-        color: red;
+        color: $color-content-font;
     }
 
     p {
