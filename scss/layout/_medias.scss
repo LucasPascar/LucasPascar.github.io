@@ -12,10 +12,17 @@
 }
 
 @media only screen and (max-width:750px) {
-// imagenes con descripcion
+
+
+
+    // imagenes con descripcion
+    .card{
+        max-height: 558px;
+        max-width: 330px
+    }
     .card img {
-        max-height: 158px;
-        max-width: 506px;
+        max-height: 400px;
+        max-width: 330px;
     }
 
 
@@ -38,3 +45,34 @@
 
 
 
+@media only screen and (min-width:730px) and (max-width:750px) {
+
+
+
+    // imagenes con descripcion
+    .card{
+        max-height: 558px;
+        max-width: 400px
+    }
+    .card img {
+        max-height: 400px;
+        max-width: 330px;
+    }
+
+
+    //imagenes de muestra
+    .caja1 img {
+        width: 400px;
+    }
+
+    .caja2 img {
+        width: 400px;
+    }
+    
+    .caja3 img {
+        width: 400px;
+    }
+    .caja4 img {
+        width: 400px;
+    }
+}
