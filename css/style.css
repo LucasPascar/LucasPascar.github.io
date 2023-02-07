@@ -308,7 +308,7 @@
 @media only screen and (min-width: 730px) and (max-width: 750px) {
   .card {
     max-height: 558px;
-    max-width: 400px;
+    max-width: 420px;
     padding-bottom: 10px; }
   .card img {
     max-height: 300px;
