@@ -110,7 +110,6 @@
   object-fit: cover; }
   .container-card .card {
     margin: 0px 15px;
-    padding-top: 15px 15px;
     height: 400px;
     font-family: "Sofia Sans Extra Condensed", sans-serif;
     font-size: 25px;
@@ -127,8 +126,8 @@
       text-decoration: underline;
       color: whitesmoke; }
     .container-card .card img {
-      margin-top: 20px;
-      max-height: 50%;
+      margin-top: 5px;
+      max-height: 35%;
       border-radius: 5px; }
 
 .lugar {
