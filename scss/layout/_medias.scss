@@ -54,27 +54,28 @@
     // imagenes con descripcion
     .card{
         max-height: 558px;
-        max-width: 400px
+        max-width: 400px;
+        padding-bot:5px;
     }
     .card img {
-        max-height: 400px;
+        max-height: 300px;
         max-width: 330px;
     }
 
 
     //imagenes de muestra
     .caja1 img {
-        width: 400px;
+        width: 350px;
     }
 
     .caja2 img {
-        width: 400px;
+        width: 350px;
     }
     
     .caja3 img {
-        width: 400px;
+        width: 350px;
     }
     .caja4 img {
-        width: 400px;
+        width: 350px;
     }
 }
