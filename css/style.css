@@ -292,7 +292,8 @@
     font-size: 20px; }
   .card {
     max-height: 558px;
-    max-width: 330px; }
+    max-width: 420px;
+    padding-bottom: 10px; }
   .card img {
     max-height: 400px;
     max-width: 330px; }
