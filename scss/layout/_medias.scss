@@ -5,25 +5,50 @@
         justify-content: flex-end;
         align-items: flex-end;
         gap: 0;
-
     }
 
+    .logo {
+        max-height: 100px;
+        max-width: 100px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
 
+    .caja1 img {
+        width: 200px;
+    }
+
+    .caja2 img {
+        width: 200px;
+    }
+
+    .caja3 img {
+        width:200px;
+    }
+
+    .caja4 img {
+        width:200px;
+    }
 }
+
+
+
 
 @media only screen and (max-width:750px) {
 
-.btn-btn{
-    font-size: 20px;
-}
+    .btn-btn {
+        font-size: 20px;
+    }
 
     // imagenes con descripcion
-    .card{
+    .card {
         max-height: 558px;
         max-width: 420px;
         padding-bottom: 10px;
         align-items: center;
     }
+
     .card img {
         max-height: 400px;
         max-width: 330px;
@@ -38,14 +63,24 @@
     .caja2 img {
         width: 400px;
     }
-    
+
     .caja3 img {
         width: 400px;
     }
+
     .caja4 img {
         width: 400px;
     }
+
+    .logo {
+        max-height: 100px;
+        max-width: 100px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
 }
+
 
 
 
@@ -54,11 +89,12 @@
 
 
     // imagenes con descripcion
-    .card{
+    .card {
         max-height: 558px;
         max-width: 420px;
         padding-bottom: 10px;
     }
+
     .card img {
         max-height: 300px;
         max-width: 430px;
@@ -73,11 +109,20 @@
     .caja2 img {
         width: 350px;
     }
-    
+
     .caja3 img {
         width: 350px;
     }
+
     .caja4 img {
         width: 350px;
+    }
+
+    .logo {
+        max-height: 100px;
+        max-width: 100px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
     }
 }
