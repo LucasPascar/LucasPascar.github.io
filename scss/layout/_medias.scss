@@ -24,26 +24,27 @@
     }
 
     .caja3 img {
-        width:200px;
+        width: 200px;
     }
 
     .caja4 img {
-        width:200px;
+        width: 200px;
     }
 }
 
-    /**texto bandera**/
+/**texto bandera**/
 @media only screen and (max-width:500px) {
-.bandera{
-    font-size: 30px;
+    .bandera {
+        font-size: 30px;
+    }
 }
+
+/**texto bandera**/
+@media only screen and (max-width:370px) {
+    .bandera {
+        font-size: 20px;
+    }
 }
-    /**texto bandera**/
-    @media only screen and (max-width:370px) {
-        .bandera{
-            font-size: 20px;
-        }
-        }
 
 
 
