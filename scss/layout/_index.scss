@@ -102,6 +102,7 @@
 }
 
 .caja3 {
+
     @include tamanio (500px, 700px, center, flex);
 
     img {
@@ -127,4 +128,40 @@
         width: 500px;
         margin-bottom: 10px;
     }
+}
+
+/**extend**/
+
+.bandera{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.bandera2{
+    @extend .bandera;
+    background-color: $color-bandera1;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 0;
+}
+.bandera3{
+    @extend .bandera2;
+    background-color:$color-bandera2;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+.bandera4{
+    @extend .bandera3;
+    background-color:$color-bandera3;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
 }

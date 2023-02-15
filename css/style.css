@@ -197,6 +197,36 @@
     width: 500px;
     margin-bottom: 10px; }
 
+/**extend**/
+.bandera, .bandera2, .bandera3, .bandera4 {
+  width: 100%;
+  margin-top: 50px; }
+
+.bandera2, .bandera3, .bandera4 {
+  background-color: #38755e;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  margin: 0; }
+
+.bandera3, .bandera4 {
+  background-color: whitesmoke;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center; }
+
+.bandera4 {
+  background-color: red;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center; }
+
 /**Formulario contacto**/
 .form {
   margin-top: 100px;
@@ -303,6 +333,16 @@
     width: 200px; }
   .caja4 img {
     width: 200px; } }
+
+/**texto bandera**/
+@media only screen and (max-width: 500px) {
+  .bandera, .bandera2, .bandera3, .bandera4 {
+    font-size: 30px; } }
+
+/**texto bandera**/
+@media only screen and (max-width: 370px) {
+  .bandera, .bandera2, .bandera3, .bandera4 {
+    font-size: 20px; } }
 
 @media only screen and (max-width: 750px) {
   .btn-btn {
