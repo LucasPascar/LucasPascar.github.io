@@ -344,6 +344,11 @@
   .bandera, .bandera2, .bandera3, .bandera4 {
     font-size: 20px; } }
 
+/**texto bandera**/
+@media only screen and (max-width: 200px) {
+  .bandera, .bandera2, .bandera3, .bandera4 {
+    font-size: 16px; } }
+
 @media only screen and (max-width: 750px) {
   .btn-btn {
     font-size: 20px; }
